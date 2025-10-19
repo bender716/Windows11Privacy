@@ -77,7 +77,7 @@ cd "C:\\Users\\LocalUser\\Documents\\AdminScripts"
 
 | ------ | ---------------------- | -------------- | -------------------------------------------------------------------------------- |
 
-| 1      | Apply Privacy Baseline | ✅              | Disables telemetry services, tasks, and sets privacy registry keys for all users |
+| 1      | Apply Privacy Baseline | ✅              | Disables telemetry services, tasks, and sets privacy registry keys for all logged in users |
 
 | 2      | Restore Defaults       | ✅              | Re-enables all services, tasks, and registry defaults                            |
 
@@ -99,7 +99,7 @@ cd "C:\\Users\\LocalUser\\Documents\\AdminScripts"
 
 \* All logs are saved to:
 
-&nbsp; `C:\\Users\\LocalUser\\Documents\\AdminScripts\\Logs`
+`C:\\Users\\LocalUser\\Documents\\AdminScripts\\Logs`
 
 
 
