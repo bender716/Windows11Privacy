@@ -10,6 +10,10 @@
 
 Centralized PowerShell toolkit for locking down and auditing Windows 11 privacy settings.
 
+These are written to be ran from a Windows 11 local user setup as an administrator and the user's name is LocalUser. 
+They will try to create folders for logs based on that so if you have it differently, you will need to modify the scripts to change the name LocalUser to whatever your local admin account is.
+
+
 
 
 ---
@@ -37,7 +41,6 @@ C:\\Users\\LocalUser\\Documents\\AdminScripts
 └── Logs\\                                 ← Output logs (auto-created)
 
 
-
 ---
 
 
@@ -48,7 +51,7 @@ C:\\Users\\LocalUser\\Documents\\AdminScripts
 
 1\. \*\*Open PowerShell as Administrator\*\*  
 
-&nbsp;  Right-click → “Run as Administrator” or use 'sudo pwsh' from regular powershell
+Right-click → “Run as Administrator” or use 'sudo pwsh' from regular powershell
 
 
 
@@ -56,13 +59,13 @@ C:\\Users\\LocalUser\\Documents\\AdminScripts
 
 
 
-&nbsp;  ```powershell
+ ```powershell
 
-&nbsp;  cd "C:\\Users\\LocalUser\\Documents\\AdminScripts"
+cd "C:\\Users\\LocalUser\\Documents\\AdminScripts"
 
-&nbsp;  .\\Run-PrivacyToolkit.ps1
+.\\Run-PrivacyToolkit.ps1
 
-&nbsp;  ```
+```
 
 
 
@@ -165,6 +168,7 @@ Reversible and safe for production environments.
 
 
 ---
+
 
 
 
